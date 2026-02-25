@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alberto Senna | Engenheiro Industrial Internacional</title>
+  <meta name="description"
+    content="Portfolio profissional de Alberto Senna - Engenheiro Industrial especializado em otimização de processos industriais.">
+  <link rel="stylesheet" href="styles.css">
+     <!-- Favicon -->
+    <link rel="icon" href="./img/alberto-senna.png" type="image/x-icon">
+</head>
+
+<body>
+  <!-- SPLASH SCREEN -->
+  <div class="splash-screen" id="splashScreen">
+    <div class="splash-content">
+      <div class="splash-name-container">
+        <h1 class="splash-name">
+          <span id="typedName"></span><span class="cursor">|</span>
+        </h1>
+        <p class="splash-title">Engenheiro Industrial Internacional</p>
+      </div>
+
+      <div class="splash-loader">
+        <div class="splash-progress-bar">
+          <div class="splash-progress" id="splashProgress"></div>
+        </div>
+        <span class="splash-percent" id="splashPercent">0%</span>
+      </div>
+
+      <div class="splash-spinner">
+        <div class="spinner-ring"></div>
+        <div class="spinner-ring"></div>
+        <div class="spinner-ring"></div>
+      </div>
+    </div>
+
+    <div class="splash-bg-pattern"></div>
+  </div>
+
+  <!-- MAIN CONTAINER -->
+  <div class="container">
+    <div class="background-pattern"></div>
+    <div class="particles" id="particles"></div>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+      <div class="hero-bg-texture"></div>
+      <div class="hero-geometric-lines" id="geoLines"></div>
+
+      <div class="hero-content">
+        <div class="photo-container">
+          <div class="photo-glow"></div>
+          <div class="photo-ring"></div>
+          <div class="photo-wrapper">
+            <img src="img/alberto-senna.png" alt="Alberto Senna" class="photo">
+          </div>
+        </div>
+
+        <div class="hero-text">
+          <h1 class="hero-name">Alberto Senna</h1>
+          <p class="hero-title">Engenheiro Industrial Internacional</p>
+          <p class="hero-location">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            Riad, Arábia Saudita
+          </p>
+        </div>
+
+        <div class="hero-counters" id="counters">
+          <div class="counter-item">
+            <span class="counter-number">+<span id="counterProjects">0</span></span>
+            <span class="counter-label">Projetos Globais</span>
+            <div class="counter-line"></div>
+          </div>
+          <div class="counter-item">
+            <span class="counter-number"><span id="counterYears">0</span></span>
+            <span class="counter-label">Anos de Experiência</span>
+            <div class="counter-line"></div>
+          </div>
+          <div class="counter-item">
+            <span class="counter-number"><span id="counterCountries">0</span></span>
+            <span class="counter-label">Países Atendidos</span>
+            <div class="counter-line"></div>
+          </div>
+        </div>
+
+        <p class="hero-description">
+          Carioca de nascença, cidadão do mundo por escolha. Natural do Rio de Janeiro, Alberto Senna construiu
+          uma trajetória que saiu das margens da Baía de Guanabara e chegou ao coração do Oriente Médio.
+          Engenheiro Industrial com 16 anos de experiência transformando operações complexas em resultados reais,
+          é especialista em otimização de processos e indústria 4.0 — com projetos liderados em 8 países e
+          impacto direto em eficiência e redução de custos. Iniciou sua carreira no Brasil e construiu uma
+          trajetória internacional sólida em empresas como Petrobras, Bosch, ABB e Siemens. Atualmente baseado
+          na Arábia Saudita, lidera projetos estratégicos alinhados à Saudi Vision 2030. Aos 38 anos, carrega
+          na bagagem não só a excelência técnica, mas também os valores que guiam cada decisão — dedicação,
+          responsabilidade e propósito. Pai de dois filhos e marido presente, acredita que grandes resultados
+          nascem do equilíbrio entre performance profissional e solidez pessoal.
+        </p>
+      </div>
+
+      <div class="hero-scroll-indicator">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+      <!-- FORMAÇÃO ACADÊMICA -->
+      <!-- Alberto nasceu em 1987/88 — 38 anos em 2026 -->
+      <!-- Graduação: entrou ~18 anos = 2006, saiu 2010 -->
+      <!-- Mestrado: 2011 - 2013 -->
+      <!-- Doutorado: 2014 - 2017 -->
+      <section class="section" id="education">
+        <h2 class="section-title">
+          <span class="section-icon">🎓</span>
+          Formação Acadêmica
+        </h2>
+        <div class="education-grid">
+
+          <div class="education-card">
+            <div class="education-badge">PhD</div>
+            <div class="education-content">
+              <div class="education-header">
+                <span class="education-degree">Doutorado em Engenharia Industrial</span>
+                <span class="education-year">2014 — 2017</span>
+              </div>
+              <p class="education-institution">ETH Zürich — Suíça</p>
+              <p class="education-detail">
+                Pesquisa em otimização de processos manufacturados e indústria 4.0
+              </p>
+            </div>
+          </div>
+
+          <div class="education-card">
+            <div class="education-badge">MSc</div>
+            <div class="education-content">
+              <div class="education-header">
+                <span class="education-degree">Mestrado em Gestão de Operações</span>
+                <span class="education-year">2011 — 2013</span>
+              </div>
+              <p class="education-institution">MIT — Massachusetts Institute of Technology</p>
+              <p class="education-detail">
+                Foco em lean manufacturing e cadeia de suprimentos global
+              </p>
+            </div>
+          </div>
+
+          <div class="education-card">
+            <div class="education-badge">BSc</div>
+            <div class="education-content">
+              <div class="education-header">
+                <span class="education-degree">Graduação em Engenharia Industrial</span>
+                <span class="education-year">2006 — 2010</span>
+              </div>
+              <p class="education-institution">UFRJ — Universidade Federal do Rio de Janeiro — Brasil</p>
+              <p class="education-detail">
+                Ênfase em automação industrial e sistemas de produção
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- EXPERIÊNCIA PROFISSIONAL -->
+      <!-- Trajetória: Brasil (2010-2013) → Alemanha Bosch (2013-2017, paralelo ao doutorado) → ABB Suíça (2017-2020) → Siemens Munique (2020-2025) → Siemens Arábia (2025-Presente) -->
+      <section class="section" id="companies">
+        <h2 class="section-title">
+          <span class="section-icon">🏢</span>
+          Trajetória Profissional
+        </h2>
+        <div class="companies-timeline">
+          <div class="timeline-line"></div>
+
+          <!-- 1. Siemens Arábia Saudita - atual -->
+          <div class="company-item">
+            <div class="company-dot"></div>
+            <div class="company-card">
+              <div class="company-header">
+                <div class="company-logo">SIEMENS</div>
+                <span class="company-location">📍 Riad, Arábia Saudita</span>
+              </div>
+              <h3 class="company-name">Siemens AG</h3>
+              <p class="company-role">Diretor de Operações Industriais — Oriente Médio</p>
+              <span class="company-period">2025 — Presente</span>
+              <p class="company-description">
+                Liderança de projetos estratégicos de modernização industrial alinhados à Saudi Vision 2030.
+                Gestão de equipes multiculturais em 3 países da região com foco em automação,
+                eficiência operacional e implantação de tecnologias Industry 4.0.
+              </p>
+              <div class="company-tags">
+                <span>Industry 4.0</span>
+                <span>Leadership</span>
+                <span>Saudi Vision 2030</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Siemens Munique -->
+          <div class="company-item">
+            <div class="company-dot"></div>
+            <div class="company-card">
+              <div class="company-header">
+                <div class="company-logo">SIEMENS</div>
+                <span class="company-location">📍 Munique, Alemanha</span>
+              </div>
+              <h3 class="company-name">Siemens AG</h3>
+              <p class="company-role">Diretor de Operações Industriais</p>
+              <span class="company-period">2020 — 2025</span>
+              <p class="company-description">
+                Liderança de equipes multidisciplinares em 5 países, otimização de
+                12 plantas industriais, implementação de estratégias Industry 4.0.
+              </p>
+              <div class="company-tags">
+                <span>Industry 4.0</span>
+                <span>Leadership</span>
+                <span>Operations</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. ABB Suíça -->
+          <div class="company-item">
+            <div class="company-dot"></div>
+            <div class="company-card">
+              <div class="company-header">
+                <div class="company-logo">ABB</div>
+                <span class="company-location">📍 Zurique, Suíça</span>
+              </div>
+              <h3 class="company-name">ABB Group</h3>
+              <p class="company-role">Gerente Sênior de Projetos</p>
+              <span class="company-period">2017 — 2020</span>
+              <p class="company-description">
+                Gestão de projetos de automação industrial de grande porte na Europa e Ásia,
+                com orçamento anual superior a €50M.
+              </p>
+              <div class="company-tags">
+                <span>Automation</span>
+                <span>Project Management</span>
+                <span>Global</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Bosch Alemanha -->
+          <div class="company-item">
+            <div class="company-dot"></div>
+            <div class="company-card">
+              <div class="company-header">
+                <div class="company-logo">BOSCH</div>
+                <span class="company-location">📍 Stuttgart, Alemanha</span>
+              </div>
+              <h3 class="company-name">Bosch Rexroth</h3>
+              <p class="company-role">Engenheiro de Processos Sênior</p>
+              <span class="company-period">2013 — 2017</span>
+              <p class="company-description">
+                Desenvolvimento de soluções de automação e otimização de linhas de produção
+                para clientes do setor automotivo. Período concomitante ao doutorado na ETH Zürich.
+              </p>
+              <div class="company-tags">
+                <span>Process Engineering</span>
+                <span>Automotive</span>
+                <span>Automation</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. Petrobras Brasil — primeira empresa, início de carreira no Rio -->
+          <div class="company-item">
+            <div class="company-dot"></div>
+            <div class="company-card">
+              <div class="company-header">
+                <div class="company-logo">PETROBRAS</div>
+                <span class="company-location">📍 Rio de Janeiro, Brasil</span>
+              </div>
+              <h3 class="company-name">Petrobras S.A.</h3>
+              <p class="company-role">Engenheiro Industrial Júnior</p>
+              <span class="company-period">2010 — 2013</span>
+              <p class="company-description">
+                Início de carreira na maior empresa do Brasil, na cidade natal. Atuação em análise
+                e otimização de processos industriais, implementação de metodologias lean manufacturing
+                e controle de qualidade em unidades de refino e processamento de gás.
+              </p>
+              <div class="company-tags">
+                <span>Lean Manufacturing</span>
+                <span>Qualidade</span>
+                <span>Processos Industriais</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- CERTIFICAÇÕES -->
+      <section class="section" id="certifications">
+        <h2 class="section-title">
+          <span class="section-icon">📜</span>
+          Certificações & Reconhecimentos
+        </h2>
+        <div class="certifications-grid">
+          <div class="certification-card">
+            <div class="certification-icon">⚙️</div>
+            <div class="certification-content">
+              <span class="certification-name">Six Sigma Black Belt</span>
+              <span class="certification-org">ASQ — American Society for Quality</span>
+            </div>
+          </div>
+          <div class="certification-card">
+            <div class="certification-icon">📊</div>
+            <div class="certification-content">
+              <span class="certification-name">PMP — Project Management Professional</span>
+              <span class="certification-org">Project Management Institute</span>
+            </div>
+          </div>
+          <div class="certification-card">
+            <div class="certification-icon">🔧</div>
+            <div class="certification-content">
+              <span class="certification-name">Lean Manufacturing Expert</span>
+              <span class="certification-org">Lean Enterprise Institute</span>
+            </div>
+          </div>
+          <div class="certification-card">
+            <div class="certification-icon">🌍</div>
+            <div class="certification-content">
+              <span class="certification-name">ISO 9001 Lead Auditor</span>
+              <span class="certification-org">International Organization for Standardization</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FRASE DE IMPACTO -->
+      <section class="quote-section" id="quote">
+        <blockquote class="quote">
+          <div class="quote-mark">❝</div>
+          <p>
+            Transformando desafios industriais em vantagens competitivas através
+            de engenharia de excelência e visão global.
+          </p>
+          <div class="quote-mark">❞</div>
+        </blockquote>
+      </section>
+
+      <!-- CONTATO -->
+      <section class="section" id="contact">
+        <h2 class="section-title">
+          <span class="section-icon">📞</span>
+          Entre em Contato
+        </h2>
+
+        <div class="contact-grid">
+          <!-- <div class="contact-card">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.19 15.86a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">Telefone</span>
+              <span class="contact-value">+966 11 9876 5432</span>
+              <span class="contact-note">Horário: 08:00 - 17:00 AST</span>
+            </div>
+          </div> -->
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">Email Profissional</span>
+              <span class="contact-value">albertosena327@gmail.com</span>
+              <span class="contact-note">Resposta em até 24h</span>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">Localização Atual</span>
+              <span class="contact-value">Riad, Arábia Saudita</span>
+              <span class="contact-note">Atendimento Global</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Redes Sociais -->
+        <div class="social-section">
+          <p class="social-label">Conecte-se nas Redes Sociais</p>
+          <div class="social-grid">
+            <a href="https://www.linkedin.com/in/alberto-sena-b423193b3/" class="social-button" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+            <!-- <a href="#" class="social-button">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+              </svg>
+              <span>Twitter / X</span>
+            </a>
+            <a href="#" class="social-button">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+              </svg>
+              <span>YouTube</span>
+            </a>
+            <a href="#" class="social-button">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M19.586 0c-.818 0-1.508.19-2.073.565-.563.377-.97.936-1.213 1.68a3.193 3.193 0 0 0-.112.437 8.365 8.365 0 0 0-.078.53 9 9 0 0 0-.05.727c-.01.282-.013.621-.013 1.016a31.121 31.121 0 0 0 .014 1.017 9 9 0 0 0 .05.727 7.946 7.946 0 0 0 .078.53 3.193 3.193 0 0 0 .112.437c.244.744.65 1.303 1.213 1.68.565.376 1.256.564 2.073.564.272 0 .532-.032.78-.095a3.21 3.21 0 0 0 .678-.244 2.94 2.94 0 0 0 .584-.377c.18-.151.341-.316.488-.496v.646c0 .468-.052.875-.156 1.222-.103.348-.252.638-.446.87-.194.233-.433.407-.716.522-.283.115-.607.172-.97.172-.312 0-.6-.038-.866-.114a2.804 2.804 0 0 1-.72-.321 3.11 3.11 0 0 1-.588-.481 5.29 5.29 0 0 1-.473-.58l-1.746 1.41c.219.358.474.676.767.956.293.28.625.516.997.71.371.193.787.34 1.245.44.46.1.966.15 1.52.15.63 0 1.204-.08 1.72-.24.516-.159.964-.398 1.343-.716.38-.317.68-.71.902-1.18.222-.47.357-1.018.406-1.643h.04v1.3h2.136V8.056h-4.704v1.89h2.34v.516c0 .468-.063.875-.188 1.222-.125.348-.3.638-.524.87-.224.233-.493.407-.806.522-.313.115-.663.172-1.048.172-.352 0-.655-.044-.91-.132a1.543 1.543 0 0 1-.621-.39 1.637 1.637 0 0 1-.357-.62 3.016 3.016 0 0 1-.113-.858V5.518c0-.34.038-.634.113-.88.076-.245.197-.448.365-.607.168-.159.38-.277.634-.353.255-.076.558-.114.91-.114.385 0 .735.057 1.048.172.313.115.582.289.806.522.224.232.399.522.524.87.125.347.188.754.188 1.222v.516h-2.34v1.89h4.704V0h-2.136v.646a3.323 3.323 0 0 0-.488-.496 2.94 2.94 0 0 0-.584-.377 3.21 3.21 0 0 0-.678-.244A3.126 3.126 0 0 0 19.586 0zM4.697 6.125c-.76 0-1.437.116-2.03.347-.592.231-1.095.558-1.508.98-.412.42-.727.93-.945 1.527C-.003 9.576-.112 10.24-.112 10.972c0 .746.109 1.42.326 2.02.218.602.533 1.116.945 1.544.413.428.916.757 1.509.988.592.231 1.269.347 2.029.347.506 0 .976-.056 1.41-.169a5.79 5.79 0 0 0 1.219-.449 4.64 4.64 0 0 0 1.004-.665 5.81 5.81 0 0 0 .774-.822l-1.74-1.296a4.29 4.29 0 0 1-.603.597c-.233.184-.49.34-.768.47-.28.129-.586.228-.918.296a5.09 5.09 0 0 1-1.04.098c-.401 0-.766-.06-1.094-.181a2.35 2.35 0 0 1-.853-.522 2.37 2.37 0 0 1-.553-.834 3.192 3.192 0 0 1-.219-.9h6.99v-.852c0-.717-.09-1.368-.271-1.951-.181-.583-.45-1.082-.806-1.498a3.535 3.535 0 0 0-1.32-.972c-.528-.232-1.148-.348-1.86-.348zm-.024 1.85c.345 0 .648.053.91.159.261.105.48.255.654.45.175.195.307.43.397.704.09.275.135.582.135.922H2.55c.058-.36.155-.675.293-.945.138-.27.31-.495.517-.676.207-.181.449-.318.724-.41.275-.093.578-.139.91-.139l-.021.535v-.6z" />
+              </svg>
+              <span>ResearchGate</span>
+            </a> -->
+          </div>
+        </div>
+
+        <!-- Formulário de Contato -->
+        <div class="contact-form-section">
+          <h3 class="form-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="form-title-icon">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+            Envie uma Mensagem
+          </h3>
+          <p class="form-subtitle">Entre em contato diretamente pelo formulário abaixo</p>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name" class="form-label">Nome Completo</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="Seu nome" required>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="seu@email.com" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="subject" class="form-label">Assunto</label>
+              <select id="subject" name="subject" class="form-input form-select" required>
+                <option value="" disabled selected>Selecione um assunto</option>
+                <option value="Consultoria Industrial">Consultoria Industrial</option>
+                <option value="Solicitação de Projeto">Solicitação de Projeto</option>
+                <option value="Proposta de Parceria">Proposta de Parceria</option>
+                <option value="Palestras e Eventos">Palestras e Eventos</option>
+                <option value="Outro Assunto">Outro Assunto</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Mensagem</label>
+              <textarea id="message" name="message" class="form-input form-textarea"
+                placeholder="Escreva sua mensagem aqui..." rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="form-submit-btn" id="submitBtn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon">
+                <line x1="22" y1="2" x2="11" y2="13" />
+                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+              </svg>
+              <span class="btn-text">Enviar Mensagem</span>
+            </button>
+
+            <div class="form-message" id="formMessage"></div>
+
+            <p class="form-note">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                <circle cx="12" cy="12" r="10" />
+                <line x1="12" y1="16" x2="12" y2="12" />
+                <line x1="12" y1="8" x2="12.01" y2="8" />
+              </svg>
+              Ao clicar em enviar, abrirá seu aplicativo de email padrão
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-line"></div>
+      <p class="footer-text">
+        © 2026 Alberto Senna — Engenharia Industrial Global
+      </p>
+      <p class="footer-text" style="font-size: 0.75rem; opacity: 0.4; margin-top: 0.5rem;">
+        Criado pela Sábios Desenvolvedores
+      </p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
