@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // ============================================
 // FORMULÁRIO DE CONTATO - Envia via mailto:
 // ============================================
-const ALBERTO_EMAIL = 'a.senna@albertosenna.com'; // ← Altere para o email desejado
+const ALBERTO_EMAIL = 'albertosena327@gmail.com'; // ← Altere para o email desejado
 
 function initContactForm() {
   const form = document.getElementById('contactForm');
